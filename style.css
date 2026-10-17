@@ -196,11 +196,12 @@ hr {
   padding-left: 10px;
 }
 .form-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 20px;
   background-color: #ff9e4f;
   border-radius: 10px;
+  margin-bottom: 35px;
 }
 .form-group {
   margin-bottom: 20px;
@@ -234,6 +235,13 @@ input[type='submit'] {
 input[type='submit']:hover {
   background-color: #c98900;
 }
+#comp {
+  text-align: center;
+  font-family: 'Satisfy';
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+}
 #com {
   text-align: center;
   font-family: 'Satisfy';
@@ -244,4 +252,39 @@ input[type='submit']:hover {
 #osama {
   font-family: 'Dancing Script';
   color: red;
+}
+.skill-box-dis {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skill-box{
+  height: 200px;
+  width: 150px;
+  background-color:#ff9e4f ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+.skill-box:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px rgba(97, 97, 96, 0.482);
+}
+.skill-description {
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 16px;
+  border-top: 1px solid #000000;
+  padding-top: 3px;
+}
+footer {
+  background-color: black;
+  color: white;
+  font-family: "Merriweather";
+  text-align: center;
+  height: 10vh;
+  padding-top: 2.5vh;
 }
