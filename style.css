@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
 }
-body{
-    background-color:#ffe96a;
-    padding: 0;
-    margin: 0;
+
+body {
+  background-color: #ffe96a;
+  padding: 0;
+  margin: 0;
 }
+
 #main-image {
   /* top: 0;
   left: 0; */
@@ -14,79 +16,87 @@ body{
 
 
 }
+
 #name {
-    text-align: center;
-    font-family: "Odibee Sans";
-    font-size: 85px;
-    padding-top: 0px;
-    margin-left: 30px;
+  text-align: center;
+  font-family: "Odibee Sans";
+  font-size: 85px;
+  padding-top: 0px;
+  margin-left: 30px;
 }
 
-.intro{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;   
-    margin-left: 40;
-    padding: 0%;
-    height: 100%;
-    gap: 0;
+.intro {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40;
+  padding: 0%;
+  height: 100%;
+  gap: 0;
 }
-.quote{
+
+.quote {
   font-size: 44px;
   margin: 0;
   padding: 0;
   font-family: "Carter One";
 }
 
-.navbar-collapse{
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-evenly!important;   
+.navbar-collapse {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-evenly !important;
 
 }
 
 .navbar {
-    /* position: fixed !important;
+  /* position: fixed !important;
     top: 0 !important;
     width: 100% !important;
     z-index: 100 !important; */
-    margin-bottom: 0;
-    background-color: #cb8247 !important; 
-    
+  margin-bottom: 0;
+  background-color: #cb8247 !important;
+
 }
+
 .navbar-nav {
-  font-family:"Merriweather"!important ;
-  
+  font-family: "Merriweather" !important;
+
 }
-#line{
+
+#line {
   height: 140px;
-  border-left: 3px solid #000000;              
-  margin: 0 15px; 
+  border-left: 3px solid #000000;
+  margin: 0 15px;
 }
+
 #autobiography {
   font-family: "Merriweather";
   font-size: 18px;
   letter-spacing: 0.5px;
   padding-top: 15px;
 }
+
 .combine {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0%;
-    background-color: rgba(255, 255, 255, 0.425);
-    margin-right: 50px ;
-    margin-left: 50px ;
-    border-radius: 6px;
-    transition: ease 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+  background-color: rgba(255, 255, 255, 0.425);
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 6px;
+  transition: ease 0.6s;
 }
+
 .combine:hover {
   transform: scale(1.025);
   box-shadow: 8px 8px rgba(97, 97, 96, 0.482);
 }
+
 hr {
   width: 75%;
   margin: 20px auto;
@@ -96,12 +106,142 @@ hr {
   color: black;
   opacity: 1;
 }
-.custom-carousel-item{
-   height:500px !important; 
+
+.custom-carousel-item {
+  height: 500px !important;
+  position: relative !important;
+  background-color: #ffe866;
 }
+
 .custom-carousel-img {
-  width: 100% !important;
+  width: 40% !important;
   height: 100% !important;
-  object-fit: cover !important; 
+  object-fit: cover !important;
   object-position: center !important;
+}
+
+.custom-carousel-item.active,
+.custom-carousel-item.carousel-item-next,
+.custom-carousel-item.carousel-item-prev,
+.cardsText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardsText {
+  color: white;
+  text-shadow: 2px 2px black;
+  background-color: #D39F84;
+  border-radius: 9px;
+  width: 200px;
+  margin-left: 350px;
+  padding: 3px;
+  font-family: "Merriweather";
+  transition: ease 0.4s;
+}
+
+.cardsText:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px #0000006e;
+  cursor: pointer;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(100%);
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  
+}
+
+.placeholders {
+  color: black;
+  background-color: #ffe96a;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.208);
+  border-radius: 9px;
+  font-size: 20px;
+  font-family: "Edu QLD Hand";
+}
+.boxDis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  border-width: 20px;
+  border-radius: 10px;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 15px 10px 15px;
+  text-align: center;
+  width: 1200px;
+  height: 500px;
+  background-color: #ff9e4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   transition: ease 0.6s;
+}
+.box:hover{
+  transform: scale(1.025);
+  box-shadow: 8px 8px rgba(97, 97, 96, 0.482);
+}
+.description {
+  text-align: left;
+  font-family: "Merriweather";
+  font-size: 23px;
+  border-left: 3px solid #000000;
+  padding-left: 10px;
+}
+.form-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ff9e4f;
+  border-radius: 10px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+textarea {
+  height: 150px;
+}
+input[type='submit'] {
+  background-color: #ffc800;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+input[type='submit']:hover {
+  background-color: #c98900;
+}
+#com {
+  text-align: center;
+  font-family: 'Satisfy';
+  color: rgb(255, 187, 0);
+  font-size: 60px;
+  text-shadow: 2px 2px black;
+}
+#osama {
+  font-family: 'Dancing Script';
+  color: red;
 }
