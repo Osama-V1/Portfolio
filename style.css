@@ -361,3 +361,246 @@ footer {
   z-index: 1;
   background-image: url('empty.gif');
 }   
+@media (max-width: 576px) {
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navigation */
+  .navbar {
+    padding: 8px;
+  }
+
+  .navbar-collapse {
+    display: block !important;
+  }
+
+  .navbar-nav {
+    padding: 10px 0;
+  }
+
+  .nav-item {
+    padding-left: 10px !important;
+  }
+
+
+  .all {
+    margin-top: 65px;
+  }
+
+  .intro {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+    margin: 0;
+    padding: 20px 10px;
+  }
+
+  #main-image {
+    width: 85%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .quote {
+    font-size: clamp(22px, 6vw, 30px);
+    text-align: center;
+  }
+
+  #name {
+    font-size: 45px;
+    margin: 10px 0;
+    padding: 0 5px;
+  }
+
+  /* About Me */
+  .combine {
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .combine h3 {
+    padding-left: 0 !important;
+    margin: 0;
+  }
+
+  #line {
+    width: 80%;
+    height: 0;
+    border-left: none;
+    border-top: 3px solid black;
+    margin: 0;
+  }
+
+  #autobiography {
+    font-size: 15px;
+    line-height: 1.7;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+
+  #sanda h4#name,
+  #project p#name {
+    font-size: 38px !important;
+    letter-spacing: 1px;
+  }
+
+
+  .custom-carousel-item {
+    height: 400px !important;
+  }
+
+  .custom-carousel-img {
+    width: 100% !important;
+    height: 55% !important;
+    object-fit: contain !important;
+  }
+
+  .carousel-caption {
+    display: block !important;
+    position: absolute;
+    top: 58%;
+    bottom: auto;
+    left: 12%;
+    right: 12%;
+    padding: 5px;
+  }
+
+  .cardsText {
+    font-size: 16px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto 8px;
+    padding: 5px 10px;
+  }
+
+  .placeholders {
+    font-size: 14px;
+    padding: 8px;
+    margin-bottom: 0;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 5px;
+  }
+
+
+  .skill-box-dis {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .skill-box {
+    width: 42%;
+    height: 170px;
+  }
+
+  .skill-box img {
+    width: 90px !important;
+    max-width: 100%;
+  }
+
+  .skill-description {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 0;
+  }
+
+
+  .boxDis,
+  .boxDiv {
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .box img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    padding-right: 0 !important;
+    border-radius: 6px;
+  }
+
+  .description {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left;
+    border-left: none;
+    border-top: 2px solid black;
+    padding: 10px 0 0;
+    margin: 0;
+  }
+
+
+  .des {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flashcard-container {
+    width: 90%;
+    max-width: 350px;
+    height: 240px;
+    margin: 12px 0;
+  }
+
+  .front h2,
+  .front h3 {
+    font-size: 22px;
+  }
+
+  #comp {
+    font-size: 22px;
+    padding: 0 12px;
+  }
+
+
+  #com {
+    font-size: 38px;
+    padding: 0 8px;
+  }
+
+  .form-container {
+    width: 92%;
+    padding: 15px;
+    margin-bottom: 25px;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    font-size: 16px;
+  }
+
+  footer {
+    height: auto;
+    min-height: 65px;
+    padding: 18px 10px;
+  }
+
+  footer p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  hr {
+    width: 85%;
+    margin: 20px auto;
+  }
+}
