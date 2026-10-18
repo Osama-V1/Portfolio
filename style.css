@@ -48,10 +48,7 @@ body {
 }
 
 .navbar-collapse {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-evenly !important;
-
+justify-content: space-evenly;
 }
 
 .navbar {
@@ -373,7 +370,7 @@ footer {
   }
 
   .navbar-collapse {
-    display: block !important;
+    display: block;
   }
 
   .navbar-nav {
