@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-collapse {
-justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .navbar {
@@ -359,7 +359,7 @@ footer {
   background-image: url('empty.gif');
 }   
 @media (max-width: 576px) {
-  
+
   body {
     overflow-x: hidden;
   }
@@ -367,10 +367,6 @@ footer {
   /* Navigation */
   .navbar {
     padding: 8px;
-  }
-
-  .navbar-collapse {
-    display: block;
   }
 
   .navbar-nav {
